@@ -44,6 +44,8 @@ typedef enum {
     TTTOrdinalNumberFormatterPredicateGrammaticalNumber _grammaticalNumber;
 }
 
+- (NSString *)localizedOrdinalIndicatorStringFromNumber:(NSNumber *)number;
+
 - (NSString *)ordinalIndicator;
 - (void)setOrdinalIndicator:(NSString *)indicator;
 

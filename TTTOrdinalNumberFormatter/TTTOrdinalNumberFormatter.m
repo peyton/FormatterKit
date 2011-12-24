@@ -29,7 +29,6 @@ static NSString * const kTTTOrdinalNumberFormatterDefaultOrdinalIndicator = @"."
 @property (nonatomic, assign) TTTOrdinalNumberFormatterPredicateGrammaticalGender grammaticalGender;
 @property (nonatomic, assign) TTTOrdinalNumberFormatterPredicateGrammaticalNumber grammaticalNumber;
 
-- (NSString *)localizedOrdinalIndicatorStringFromNumber:(NSNumber *)number;
 - (NSString *)deOrdinalIndicatorStringFromNumber:(NSNumber *)number;
 - (NSString *)enOrdinalIndicatorStringFromNumber:(NSNumber *)number;
 - (NSString *)esOrdinalIndicatorStringFromNumber:(NSNumber *)number;
